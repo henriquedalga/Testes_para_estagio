@@ -14,7 +14,6 @@ tabela1.columns = tabela1.iloc[0]
 tabela1 = tabela1['Código Descrição da categoria'].str.split(' ', expand=True, n=1)
 tabela1.columns = tabela1.iloc[0]
 tabela1 = tabela1.drop(tabela1.index[[0]])
-print(tabela1)
 tabela2.columns = tabela2.iloc[0]
 tabela2 = tabela2.drop(tabela2.index[[0]])
 
